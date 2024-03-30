@@ -1,0 +1,27 @@
+{
+  "permissionlevels": {
+    "command.poketrade": 2,
+    "command.pokesee": 2,
+    "command.pokeseeother": 2,
+    "command.pc": 2,
+    "command.pokeshout": 2,
+    "command.itemshout": 2,
+    "command.compsee": 2,
+    "command.compseeother": 2,
+    "command.pokebattle": 3,
+    "command.battle": 2,
+    "command.comptake": 2,
+    "command.pokeivs": 2,
+    "command.emptybox": 2,
+    "command.pokeshoutall": 2,
+    "command.pokeodds": 3,
+    "command.pokekill": 3
+  },
+  "showcase": {
+    "isShowcaseEnabled": true,
+    "apiSecret": "To start using showcase, please goto https://cobblemonextras.com/showcase",
+    "syncIntervalMinutes": 5,
+    "debug": false,
+    "async": true
+  }
+}

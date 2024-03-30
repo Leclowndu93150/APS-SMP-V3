@@ -1,0 +1,5 @@
+{
+  "poolSize": 5,
+  "cooldownEnabled": true,
+  "cooldown": 5
+}

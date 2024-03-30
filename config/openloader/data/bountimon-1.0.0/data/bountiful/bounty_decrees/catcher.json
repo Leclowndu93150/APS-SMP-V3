@@ -1,0 +1,4 @@
+{
+  "objectives": ["catcher_objs", "_all_objs"],
+  "rewards": ["catcher_rews", "_all_rews"]
+}

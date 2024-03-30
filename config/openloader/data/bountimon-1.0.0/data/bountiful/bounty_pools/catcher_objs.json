@@ -1,0 +1,238 @@
+{
+  "content": {
+    "catcher_obj_catch_bug": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "bug"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_dark": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "dark"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_dragon": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "dragon"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_electric": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "electric"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_fairy": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "fairy"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_fighting": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "fighting"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_fire": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "fire"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_flying": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "flying"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_ghost": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "ghost"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_grass": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "grass"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_ground": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "ground"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_ice": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "ice"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_normal": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "normal"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_poison": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "poison"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_psychic": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "psychic"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_rock": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "rock"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_steel": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "steel"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    },
+    "catcher_obj_catch_water": {
+      "type": "criteria",
+      "icon": "cobblemon:poke_ball",
+      "content": "cobblemon:catch_pokemon",
+      "conditions": {
+        "type": "water"
+      },
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "unitWorth": 250
+    }
+  }
+}

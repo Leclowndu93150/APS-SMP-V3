@@ -1,0 +1,12 @@
+{
+	"maxLootBallsPerChunk": 3,
+	"hiddenMultiplier": 2.0,
+	"hiddenChance": 0.20000000298023224,
+	"naturalLootBallUses": 1,
+	"perPlayerLootBalls": false,
+	"ignorePerPlayerLootBallUses": true,
+	"doLootBallArchaeology": true,
+	"doLootBallFishing": true,
+	"doLootBallDrops": true,
+	"doLootBallChests": true
+}
