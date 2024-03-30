@@ -1,1 +1,0 @@
-give @p armor_stand{display:{Name:'{"text":"Ultraball Spawner","color":"yellow","bold":false,"italic":false}'},EntityTag:{CustomNameVisible:0b,Silent:1b,Tags:["ultraball_loot_spawner"]}} 1
