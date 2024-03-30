@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 16.0,
+      "item": "cobblemon:cherish_ball"
+    },
+    {
+      "chance": 8.0,
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:netherite_ingot"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:netherite_ingot"
+        },
+        {
+          "item": "cobblemon:red_apricorn"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:netherite_ingot"
+  }
+}

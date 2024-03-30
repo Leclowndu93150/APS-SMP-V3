@@ -1,0 +1,67 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.electrode",
+				"texture_width": 128,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "electrode",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "electrode",
+					"pivot": [0, 9, 0],
+					"cubes": [
+						{"origin": [-9, 0, -9], "size": [18, 18, 18], "uv": [56, 21]},
+						{"origin": [-9, 0, -9], "size": [18, 18, 18], "inflate": 0.25, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "mouth",
+					"parent": "body",
+					"pivot": [0, 4, -4.25]
+				},
+				{
+					"name": "mouth_open",
+					"parent": "mouth",
+					"pivot": [0.5, 7, -9.26],
+					"cubes": [
+						{"origin": [-5.5, 7.05, -9.26], "size": [12, 4, 0], "pivot": [0.5, 7, -9.26], "rotation": [0, 0, 172.5], "uv": [54, 3]},
+						{"origin": [-5.5, 7, -9.155], "size": [12, 4, 0], "inflate": 0.1, "pivot": [0.5, 7, -9.16], "rotation": [0, 0, 172.5], "uv": [104, 0]},
+						{"origin": [0.1, 9, -12.055], "size": [1, 2, 0], "inflate": 0.1, "pivot": [0.5, 7, -9.16], "rotation": [-180, 80, -7.5], "uv": [104, 0]},
+						{"origin": [-0.3, 10, -10.055], "size": [1, 1, 0], "inflate": 0.1, "pivot": [0.5, 7, -9.16], "rotation": [-180, 80, -7.5], "uv": [104, 0]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "body",
+					"pivot": [0, 5.9, -4.05]
+				},
+				{
+					"name": "eye_right",
+					"parent": "eyes",
+					"pivot": [-3, 12.9, -9.06],
+					"cubes": [
+						{"origin": [-3.5, 11.9, -9.06], "size": [1, 1, 0], "uv": [6, 8]}
+					]
+				},
+				{
+					"name": "eye_left",
+					"parent": "eyes",
+					"pivot": [3, 12.9, -9.06],
+					"cubes": [
+						{"origin": [2.5, 11.9, -9.06], "size": [1, 1, 0], "uv": [8, 8]}
+					]
+				}
+			]
+		}
+	]
+}

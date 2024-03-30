@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:sliggoo",
+  "baseScale": 1.5,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.7,
+    "fixed": false
+  },
+  "features": [
+    "hisuian"
+  ]
+}

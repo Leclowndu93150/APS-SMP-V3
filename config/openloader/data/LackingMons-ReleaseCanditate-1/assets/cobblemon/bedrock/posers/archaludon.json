@@ -1,0 +1,56 @@
+{
+    "portraitScale": 1,
+    "cry": "bedrock(archaludon, cry)",
+    "portraitTranslation": [
+        -0.2,
+        2,
+        0
+    ],
+    "profileScale": .4,
+    "profileTranslation": [
+        0,
+        1.2,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(archaludon, ground_idle)"
+            ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(archaludon, blink)"
+         ]
+       }
+     ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(archaludon, ground_walk)"
+            ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(archaludon, blink)"
+         ]
+       }
+     ]
+        }
+    }
+}

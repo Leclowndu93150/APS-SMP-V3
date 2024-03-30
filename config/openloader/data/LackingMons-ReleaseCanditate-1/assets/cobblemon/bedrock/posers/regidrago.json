@@ -1,0 +1,22 @@
+{
+  "head": "torso",
+  "portraitScale": 2,
+  "portraitTranslation": [-0.6, -0.2, 0],
+  "profileScale": 0.45,
+  "profileTranslation": [0, 1.1, 0],
+  "cry":  "bedrock(regidrago, cry)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["look", "bedrock(regidrago, ground_idle)"]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(regidrago, ground_walk)"]
+     }
+  }
+}

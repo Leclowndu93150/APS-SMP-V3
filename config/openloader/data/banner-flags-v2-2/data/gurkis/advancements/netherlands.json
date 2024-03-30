@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_banner",
+      "nbt": "{BlockEntityTag:{Patterns:[{Pattern:vhr,Color:14},{Pattern:cs,Color:0}]}}"
+    },
+    "title": "Netherlands?",
+    "description": "§ePlace a flag in §6the Nether",
+    "show_toast": true,
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gurkis:theflagisup",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

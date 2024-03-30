@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:goodra",
+  "baseScale": 1.5,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "features": [
+    "hisuian"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

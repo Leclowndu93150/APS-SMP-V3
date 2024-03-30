@@ -1,0 +1,5 @@
+{
+    "target": "cobblemon:meowth",   
+    "shoulderMountable": true,
+    "shoulderEffects": [ "hero_of_the_village" ]
+}

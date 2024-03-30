@@ -1,0 +1,112 @@
+{
+    "head": "head",
+    "portraitScale": 2,
+    "portraitTranslation": [
+        -0.1,
+        -1.2,
+        0
+    ],
+    "profileScale": 0.6,
+    "profileTranslation": [
+        -0.1,
+        0.8,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(vibrava, ground_idle)"
+            ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(vibrava, blink)"
+         ]
+       }
+     ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(vibrava, ground_walk)"
+            ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(vibrava, blink)"
+         ]
+       }
+     ]
+        },
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "isBattle": true,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(vibrava, battle_idle)"
+            ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(vibrava, blink)"
+         ]
+       }
+     ]
+        },
+   "hovering": {
+     "poseName": "hovering",
+     "transformTicks": 10,
+     "poseTypes": [
+       "HOVER"
+     ],
+     "animations": [
+       "bedrock(vibrava, air_idle)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(vibrava, blink)"
+         ]
+       }
+     ]
+   },
+   "flying": {
+     "poseName": "flying",
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLY"
+     ],
+     "animations": [
+       "bedrock(vibrava, air_fly)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(vibrava, blink)"
+         ]
+       }
+     ]
+   }
+    }
+}

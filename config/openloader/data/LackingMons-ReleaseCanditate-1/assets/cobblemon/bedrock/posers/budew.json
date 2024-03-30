@@ -1,0 +1,52 @@
+{
+   "portraitScale":2.5,
+   "portraitTranslation":[
+      -0.1,
+      -1.9,
+      0
+   ],
+   "profileScale":1,
+   "profileTranslation":[
+      0,
+      0.3,
+      0
+   ],
+ "faint": "bedrock(budew, faint, true)",
+   "poses":{
+      "standing":{
+         "poseName":"standing",
+         "transformTicks":10,
+         "poseTypes":[
+            "STAND",
+            "NONE",
+            "PORTRAIT",
+            "PROFILE"
+         ],
+         "animations":[
+            "bedrock(budew, ground_idle)"
+         ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(budew, blink)"]
+          }
+        ]
+      },
+      "walking":{
+         "poseName":"walking",
+         "transformTicks":10,
+         "poseTypes":[
+            "WALK"
+         ],
+         "animations":[
+            "bedrock(budew, ground_walk)"
+         ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(budew, blink)"]
+          }
+        ]
+      }
+   }
+}

@@ -1,0 +1,50 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "vibrava-1",
+            "pokemon": "vibrava",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-38",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sand"
+                ]
+            }
+        },
+        {
+            "id": "vibrava-2",
+            "pokemon": "vibrava",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-38",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:red_sand"
+                ]
+            }
+        }
+    ]
+}
+       

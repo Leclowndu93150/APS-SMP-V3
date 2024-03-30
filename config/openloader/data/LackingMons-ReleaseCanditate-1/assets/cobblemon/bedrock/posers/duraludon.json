@@ -1,0 +1,55 @@
+{
+   "portraitScale":1.5,
+   "portraitTranslation":[
+      -0.1,
+      2.5,
+      0
+   ],
+   "profileScale":.45,
+   "profileTranslation":[
+      0,
+      1.15,
+      0
+   ],
+   "poses":{
+      "standing":{
+         "poseName":"standing",
+         "transformTicks":10,
+         "poseTypes":[
+            "STAND",
+            "NONE",
+            "PORTRAIT",
+            "PROFILE"
+         ],
+         "animations":[
+            "bedrock(duraludon, ground_idle)"
+         ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(duraludon, blink)"
+                    ]
+                }
+            ]
+      },
+      "walking":{
+         "poseName":"walking",
+         "transformTicks":10,
+         "poseTypes":[
+            "WALK"
+         ],
+         "animations":[
+            "bedrock(duraludon, ground_walk)"
+         ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(duraludon, blink)"
+                    ]
+                }
+            ]
+      }
+   }
+}

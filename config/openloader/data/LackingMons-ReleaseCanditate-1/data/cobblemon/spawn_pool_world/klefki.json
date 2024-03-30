@@ -1,0 +1,44 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "klefki-1",
+            "pokemon": "klefki",
+            "presets": [
+                "village"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-24",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+	"id": "klefki-2",
+        "pokemon": "klefki",
+        "presets": [
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "18-24",
+        "weight": 1.0,
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "#cobblemon:is_magical"
+            ]
+        }
+        }
+    ]
+}
+       

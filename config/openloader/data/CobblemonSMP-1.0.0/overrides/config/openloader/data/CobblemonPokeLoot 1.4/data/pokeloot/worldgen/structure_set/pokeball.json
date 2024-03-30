@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "pokeloot:pokeball",
+      "weight": 5
+    }
+  ],
+  "placement": {
+    "salt": 121541467,
+    "spacing": 10,
+    "separation": 2,
+    "type": "minecraft:random_spread"
+  }
+}

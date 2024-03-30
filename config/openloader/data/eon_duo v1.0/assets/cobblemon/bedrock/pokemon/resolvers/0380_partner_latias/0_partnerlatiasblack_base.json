@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:partnerlatiasblack",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:latias",
+      "model": "cobblemon:latias.geo",
+      "texture": "cobblemon:textures/pokemon/latias/latias.png",
+      "layers": [
+        {
+          "name": "scarf_colour",
+          "texture": "cobblemon:textures/pokemon/latias/scarves/black.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/latias/latias_shiny.png"
+    }
+  ]
+}

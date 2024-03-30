@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:exp_candy_l"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "cobblemon:rare_candy"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        },
+        {
+          "amount": 40500,
+          "fluid": "milk:still_milk",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        },
+        {
+          "item": "cobblemon:vivichoke"
+        }
+      ],
+      "results": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        }
+      ],
+      "results": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        },
+        {
+          "item": "minecraft:sugar"
+        }
+      ],
+      "results": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        },
+        {
+          "item": "minecraft:paper"
+        }
+      ],
+      "results": [
+        {
+          "item": "cobblemon:exp_candy_l"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "cobblemon:exp_candy_l"
+  }
+}

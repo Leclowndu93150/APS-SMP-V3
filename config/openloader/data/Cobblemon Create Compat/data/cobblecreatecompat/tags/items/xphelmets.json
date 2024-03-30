@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:chainmail_helmet",
+    "minecraft:diamond_helmet",
+    "minecraft:turtle_helmet"
+  ]
+}

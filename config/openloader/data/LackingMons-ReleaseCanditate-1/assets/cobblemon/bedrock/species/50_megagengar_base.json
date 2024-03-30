@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:megagengar",
+    "order": 50,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:megagengar",
+            "model": "cobblemon:megagengar.geo",
+            "texture": "cobblemon:textures/pokemon/gengar/megagengar.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/gengar/megagengar_emissive.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/gengar/megagengar_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/gengar/megagengar_emissive.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

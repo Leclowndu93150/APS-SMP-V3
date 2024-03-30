@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:corsola",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": [ "coral-horn" ],
+            "poser": "cobblemon:corsola",
+            "model": "cobblemon:corsola_horn.geo",
+            "texture": "cobblemon:textures/pokemon/corsola/corsola_horn.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "coral-horn"
+            ],
+            "texture": "cobblemon:textures/pokemon/corsola/corsola_horn_shiny.png",
+            "layers": []
+        }
+    ]
+}

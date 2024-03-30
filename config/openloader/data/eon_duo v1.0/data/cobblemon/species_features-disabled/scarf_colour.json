@@ -1,0 +1,25 @@
+{
+ "type": "choice",
+ "keys": ["scarf_colour"],
+ "default": "random",
+ "choices": [
+   "white",
+   "light-gray",
+   "gray",
+   "black",
+   "brown",
+   "red",
+   "orange",
+   "yellow",
+   "lime",
+   "green",
+   "cyan",
+   "light-blue",
+   "blue",
+   "purple",
+   "magenta",
+   "pink"
+ ],
+ "isAspect": true,
+ "aspectFormat": "scarf-colour-{{choice}}"
+}

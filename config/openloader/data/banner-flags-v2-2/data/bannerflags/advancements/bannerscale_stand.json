@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick"
+    },
+    "title": "Scaling",
+    "description": "Scale banner",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "bannerflags:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              },
+              "stepping_on": {
+                "block": {
+                  "tag": "bannerflags:blocks"
+                }
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bannerflags:banner_scale_check"
+  }
+}

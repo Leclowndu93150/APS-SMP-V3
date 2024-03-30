@@ -1,0 +1,28 @@
+{
+    "target": "cobblemon:liepard",   
+    "shoulderMountable": false,
+    "baseScale": 1.0,
+    "hitbox": {
+      "width": 0.9,
+      "height": 1.3,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "2",
+      "entries": [
+        {
+          "item": "minecraft:raw_cod",
+          "quantityRange": "1-2",
+          "percentage": 66
+        }
+      ]
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "depth": "normal",
+        "light": "0-4"
+      }
+    }
+   }

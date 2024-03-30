@@ -1,0 +1,34 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [   
+        {
+            "id": "scovillain-1",
+            "pokemon": "scovillain",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-36",
+            "weight": 0.9,
+            "weightMultipliers": [
+                {
+                    "multiplier": 0.15,
+                    "condition": {
+                        "timeRange": "night"
+                    }
+                }
+            ],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "savanna",
+                    "minecraft:savanna_plateau"
+                ]
+            }
+        }
+    ]
+}

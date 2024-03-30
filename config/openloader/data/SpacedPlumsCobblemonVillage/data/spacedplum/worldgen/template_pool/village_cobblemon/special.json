@@ -1,0 +1,13 @@
+{
+	"name": "spacedplum:village_cobblemon/special",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 3,
+		"element": {
+			"location": "spacedplum:village_cobblemon/special/battlefield",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element"
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:mawile",
+  "evolutions": [
+  {
+    "id": "mawile_megamawile",
+    "variant": "item_interact",
+    "result": "megamawile",
+    "consumeHeldItem": true,
+    "requirements": [],
+    "requiredContext": "lackingmegas:key_stone"
+  },
+  {
+    "id": "mawile_megamawile1",
+    "variant": "item_interact",
+    "result": "megamawile",
+    "consumeHeldItem": false,
+    "requirements": [],
+    "requiredContext": "lackingmegas:mega_ring"
+  }
+]
+}

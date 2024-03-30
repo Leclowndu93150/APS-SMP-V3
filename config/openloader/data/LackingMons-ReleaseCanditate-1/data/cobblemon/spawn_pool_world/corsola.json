@@ -1,0 +1,235 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [   
+        {
+            "id": "corsola-fire-1",
+            "pokemon": "corsola coral=fire",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "4-34",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:fire_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-thorn-2",
+            "pokemon": "corsola coral=thorn",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "4-34",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:thorn_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-bubble-3",
+            "pokemon": "corsola coral=bubble",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "4-34",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:bubble_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-horn-4",
+            "pokemon": "corsola coral=horn",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "4-34",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:horn_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-5",
+            "pokemon": "corsola ",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "4-34",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:brain_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-galarian-6",
+            "pokemon": "corsola galarian",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "rare",
+            "level": "4-34",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ]
+            }
+        },
+        {
+            "id": "corsola-galarian-7",
+            "pokemon": "corsola galarian",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "4-34",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:dead_brain_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-galarian-8",
+            "pokemon": "corsola galarian",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "4-34",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:dead_fire_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-galarian-9",
+            "pokemon": "corsola galarian",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "4-34",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:dead_thorn_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-galarian-10",
+            "pokemon": "corsola galarian",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "4-34",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:dead_bubble_coral_block"
+                ]
+            }
+        },
+        {
+            "id": "corsola-galarian-11",
+            "pokemon": "corsola galarian",
+            "presets": [
+		"underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "uncommon",
+            "level": "4-34",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+		    "#cobblemon:is_warm_ocean"
+                ],
+                "neededNearbyBlocks": [
+                "minecraft:dead_horn_coral_block"
+                ]
+            }
+        }
+    ]
+}

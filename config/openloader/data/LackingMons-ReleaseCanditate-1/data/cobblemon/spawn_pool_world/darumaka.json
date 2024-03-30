@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    {
+       "id": "darumaka-galarian-1",
+       "pokemon": "darumaka galarian",
+       "presets": [
+           "natural"
+       ],
+       "type": "pokemon",
+       "context": "grounded",
+       "bucket": "rare",
+       "level": "10-24",
+       "weight": 5.0,
+       "weightMultipliers": [
+        {
+                        "multiplier": 2.0,
+                        "condition": {
+                            "isRaining":"true"
+                        }
+        }
+       ],
+       "condition": {
+           "biomes": [
+               "#cobblemon:is_snowy_forest"
+           ]
+       }
+    }
+    ]
+}

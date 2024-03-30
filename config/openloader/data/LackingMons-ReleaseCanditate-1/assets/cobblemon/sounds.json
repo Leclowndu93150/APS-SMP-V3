@@ -1,0 +1,17 @@
+{
+    "pokemon.bergmite.ambient": {
+        "sounds": [
+            "cobblemon:pokemon/bergmite/bergmite_ambient"
+        ]
+    },
+    "pokemon.avalugg.ambient": {
+        "sounds": [
+            "cobblemon:pokemon/avalugg/avalugg_ambient"
+        ]
+    },
+    "pokemon.dragapult.cry": {
+        "sounds": [
+            "cobblemon:pokemon/dragapult/dragapult_cry"
+        ]
+    }
+}

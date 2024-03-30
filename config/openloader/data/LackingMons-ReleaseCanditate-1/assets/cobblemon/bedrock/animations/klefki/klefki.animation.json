@@ -1,0 +1,181 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.klefki.pose": {
+			"loop": true,
+			"bones": {
+				"eyes": {
+					"position": [0, 0.1, 0]
+				},
+				"right_eye": {
+					"scale": [0.7, 0.8, 1]
+				},
+				"left_eye": {
+					"scale": [0.7, 0.8, 1]
+				},
+				"mouth": {
+					"position": [0, -0.1, 0],
+					"scale": [0.8, 0.8, 1]
+				},
+				"mouth2": {
+					"position": [-0.03, 0, 0],
+					"scale": [0.8, 1.1, 1]
+				},
+				"ring": {
+					"rotation": [25, 0, 0],
+					"position": [0, 0, -0.3]
+				},
+				"body": {
+					"rotation": [7.5, 0, 0],
+					"position": [0, 27, 0]
+				},
+				"sack": {
+					"rotation": [20, 0, 0]
+				},
+				"key": {
+					"rotation": [0, 0, 12],
+					"position": [-1.1, 0.6, 0]
+				},
+				"key2": {
+					"rotation": [0, 0, -7],
+					"position": [0.8, 0, 0]
+				},
+				"key3": {
+					"rotation": [0, 0, -51],
+					"position": [3.4, 2.3, -0.4]
+				},
+				"key4": {
+					"rotation": [0, 0, 39],
+					"position": [-3.4, 2, 0]
+				},
+				"lowerkey4": {
+					"scale": [0.6, 0.8, 1]
+				}
+			}
+		},
+		"animation.klefki.ground_idle": {
+			"loop": true,
+			"bones": {
+				"eyes": {
+					"position": [0, 0.1, 0]
+				},
+				"right_eye": {
+					"scale": [0.7, 0.8, 1]
+				},
+				"left_eye": {
+					"scale": [0.7, 0.8, 1]
+				},
+				"mouth": {
+					"position": [0, -0.1, 0],
+					"scale": [0.8, 0.8, 1]
+				},
+				"mouth2": {
+					"position": [-0.03, 0, 0],
+					"scale": [0.8, 1.1, 1]
+				},
+				"ring": {
+					"rotation": ["25+math.sin(q.anim_time*90*0.5)*10", 0, 0],
+					"position": [0, 0, -0.3]
+				},
+				"body": {
+					"rotation": ["7.5-math.sin(q.anim_time*90*0.5)*5", 0, 0],
+					"position": [
+						"0+math.sin(q.anim_time*90*0.5)*2-math.sin(q.anim_time*150*0.5)*5+math.sin(q.anim_time*50*0.5)*4",
+						"27-math.sin(q.anim_time*90*0.5)*5",
+						"0+math.sin(q.anim_time*90*0.5)*2-math.sin(q.anim_time*150*0.5)*5+math.sin(q.anim_time*50*0.5)*4"
+					]
+				},
+				"sack": {
+					"rotation": ["20+math.sin(q.anim_time*150*0.5)*15", 0, 0]
+				},
+				"key": {
+					"rotation": [0, 0, "12-math.sin(q.anim_time*100*0.5)*15"],
+					"position": [-1.1, 0.6, 0]
+				},
+				"key2": {
+					"rotation": [0, 0, "-7+math.sin(q.anim_time*150*0.5)*15"],
+					"position": [0.8, 0, 0]
+				},
+				"key3": {
+					"rotation": [0, 0, "-51+math.sin(q.anim_time*150*0.5)*15"],
+					"position": [3.4, 2.3, -0.4]
+				},
+				"key4": {
+					"rotation": ["0-math.sin(q.anim_time*90*0.5)*15", "0-math.sin(q.anim_time*90*0.5)*15", "39-math.sin(q.anim_time*90*0.5)*15"],
+					"position": [-3.4, 2, 0]
+				},
+				"lowerkey4": {
+					"rotation": [
+						"0-math.sin(q.anim_time*100*0.5)*15+math.sin(q.anim_time*150*0.5)*10",
+						"0-math.sin(q.anim_time*100*0.5)*15+math.sin(q.anim_time*150*0.5)*10",
+						"-2.5-math.sin(q.anim_time*150*0.5)*15+math.sin(q.anim_time*100*0.5)*10"
+					],
+					"position": [0, -0.2, 0],
+					"scale": [0.6, 0.8, 1]
+				}
+			}
+		},
+		"animation.klefki.ground_walk": {
+			"loop": true,
+			"bones": {
+				"eyes": {
+					"position": [0, 0.1, 0]
+				},
+				"right_eye": {
+					"scale": [0.7, 0.8, 1]
+				},
+				"left_eye": {
+					"scale": [0.7, 0.8, 1]
+				},
+				"mouth": {
+					"position": [0, -0.1, 0],
+					"scale": [0.8, 0.8, 1]
+				},
+				"mouth2": {
+					"position": [-0.03, 0, 0],
+					"scale": [0.8, 1.1, 1]
+				},
+				"ring": {
+					"rotation": ["31+math.sin(q.anim_time*90*0.5)*10", 0, 0],
+					"position": [0, 0, -0.3]
+				},
+				"body": {
+					"rotation": ["20-math.sin(q.anim_time*90*0.5)*5", 0, 0],
+					"position": [
+						"0+math.sin(q.anim_time*90*0.5)*2-math.sin(q.anim_time*150*0.5)*5+math.sin(q.anim_time*50*0.5)*4",
+						"27-math.sin(q.anim_time*90*0.5)*5",
+						"0+math.sin(q.anim_time*90*0.5)*2+math.sin(q.anim_time*150*0.5)*5+math.sin(q.anim_time*50*0.5)*4+math.sin(q.anim_time*150*0.5)*1-math.sin(q.anim_time*150*0.5)*5+math.sin(q.anim_time*20*0.5)*4"
+					]
+				},
+				"sack": {
+					"rotation": ["20+math.sin(q.anim_time*150*0.5)*15", 0, 0]
+				},
+				"key": {
+					"rotation": [0, 0, "12-math.sin(q.anim_time*100*0.5)*25"],
+					"position": ["-1.1+math.sin(q.anim_time*90*0.5)*1", 0.6, 0]
+				},
+				"key2": {
+					"rotation": [0, 0, "-7+math.sin(q.anim_time*150*0.5)*15"],
+					"position": ["0.8+math.sin(q.anim_time*90*0.5)*1.7", "0+math.sin(q.anim_time*90*0.5)*0.8", 0]
+				},
+				"key3": {
+					"rotation": ["0.1+math.sin(q.anim_time*90*0.5)*15", "-0.1732+math.sin(q.anim_time*90*0.5)*15", "-30-math.sin(q.anim_time*90*0.5)*35"],
+					"position": ["3.4+math.sin(q.anim_time*60*0.8)*2", "2.3+math.sin(q.anim_time*60*0.8)*2.4", -0.4]
+				},
+				"key4": {
+					"rotation": ["0-math.sin(q.anim_time*90*0.5)*15", "0-math.sin(q.anim_time*90*0.5)*15", "39+math.sin(q.anim_time*90*0.5)*16"],
+					"position": ["-3.4-math.sin(q.anim_time*90*0.5)*0.6+math.sin(q.anim_time*90*0.5)*2", "1.8-math.sin(q.anim_time*90*0.5)*0.7", 0]
+				},
+				"lowerkey4": {
+					"rotation": [
+						"0-math.sin(q.anim_time*100*0.5)*15+math.sin(q.anim_time*150*0.5)*10",
+						"0-math.sin(q.anim_time*100*0.5)*15+math.sin(q.anim_time*150*0.5)*10",
+						"-2.5-math.sin(q.anim_time*150*0.5)*15+math.sin(q.anim_time*100*0.5)*10"
+					],
+					"position": ["0+math.sin(q.anim_time*90*0.5)*0.2", "-0.2+math.sin(q.anim_time*90*0.5)*0.2", "0+math.sin(q.anim_time*90*0.5)*0.2"],
+					"scale": [0.6, 0.8, 1]
+				}
+			}
+		}
+	}
+}

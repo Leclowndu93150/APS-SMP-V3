@@ -1,0 +1,82 @@
+{
+	"name": "spacedplum:village_cobblemon/roads2",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 1,
+		"element": {
+			"element_type": "minecraft:empty_pool_element"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/straight",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/transition",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/corner",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/tjunction",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 2,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/tjunction2",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 1,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/xjunction",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/long1",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "spacedplum:village_cobblemon/roads2/long2",
+			"processors": "minecraft:empty",
+			"projection": "terrain_matching",
+			"element_type": "minecraft:single_pool_element"
+		}
+	},{
+		"weight": 3,
+		"element": {
+			"location": "spacedplum:village_cobblemon/special2/battlefield",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element"
+		}
+	}]
+}

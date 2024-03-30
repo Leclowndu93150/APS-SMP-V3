@@ -1,0 +1,42 @@
+{
+    "species": "cobblemon:cursola",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:cursola",
+            "model": "cobblemon:cursola.geo",
+            "texture": "cobblemon:textures/pokemon/cursola/cursola.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/cursola/cursola_emissive.png",
+                    "emissive": true
+                },
+                {
+                    "name": "translucent",
+                    "texture": "cobblemon:textures/pokemon/cursola/cursola_transparent.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/cursola/cursola_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/cursola/cursola_emissive_shiny.png",
+                    "emissive": true
+                },
+                {
+                    "name": "translucent",
+                    "texture": "cobblemon:textures/pokemon/cursola/cursola_transparent_shiny.png",
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}

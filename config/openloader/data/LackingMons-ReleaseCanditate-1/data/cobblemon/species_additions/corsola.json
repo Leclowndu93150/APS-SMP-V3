@@ -1,0 +1,16 @@
+{
+    "target": "cobblemon:corsola",
+ "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

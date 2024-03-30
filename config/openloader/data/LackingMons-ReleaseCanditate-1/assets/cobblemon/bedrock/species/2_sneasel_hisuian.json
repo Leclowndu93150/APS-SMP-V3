@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:sneasel",
+    "order": 2,
+    "variations": [
+        {
+            "aspects": [
+                "hisuian"
+            ],
+            "model": "cobblemon:sneasel_male_hisuian.geo",
+            "poser": "cobblemon:sneasel",
+            "texture": "cobblemon:textures/pokemon/sneasel/sneasel_hisuian.png"
+        },
+        {
+            "aspects": [
+                "hisuian",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/sneasel/sneasel_hisuian_shiny.png"
+        }
+    ]
+}

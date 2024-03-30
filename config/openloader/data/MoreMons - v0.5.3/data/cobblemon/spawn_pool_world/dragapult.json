@@ -1,0 +1,39 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+          "id": "dragapult-1",
+          "pokemon": "dragapult",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "rare",
+          "level": "60-80",
+          "weight": 0.015,
+          "condition": {
+          "canSeeSky": true,
+          "biomes": [
+              "#minecraft:is_overworld"
+            ],
+            "isRaining": true
+          }
+        },
+        {
+          "id": "dragapult-2",
+          "pokemon": "dragapult",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "rare",
+          "level": "60-80",
+          "weight": 0.058,
+          "condition": {
+          "canSeeSky": true,
+          "biomes": [
+              "#cobblemon:is_swamp"
+            ],
+            "timeRange": "night"
+        }
+      }
+    ]
+}

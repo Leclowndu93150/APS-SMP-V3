@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.octillery.ground_idle": {
+			"loop": true
+		},
+		"animation.octillery.ground_walk": {
+			"loop": true
+		},
+		"animation.octillery.water_idle": {
+			"loop": true
+		},
+		"animation.octillery.water_swim": {
+			"loop": true
+		},
+		"animation.octillery.cry": {
+			"loop": true
+		}
+	}
+}

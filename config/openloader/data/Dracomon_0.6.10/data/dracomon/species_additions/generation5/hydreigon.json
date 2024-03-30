@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:hydreigon",
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "head": "head",
+    "portraitScale": 2,
+    "portraitTranslation": [
+        -0.7,
+        1.5,
+        0
+    ],
+    "profileScale": 0.6,
+    "profileTranslation": [
+        0,
+        0.9,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(turtonator, ground_idle)"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(turtonator, ground_walk)"
+            ]
+        },
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "isBattle": true,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(turtonator, battle_idle)"
+            ]
+        }
+    }
+}

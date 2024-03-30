@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:noibat",
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canlook": true,
+      "fly": {
+        "canFly": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "times": "day",
+      "willSleepOnBed": "true"
+    }
+  },
+  "shoulderMountable": true
+}

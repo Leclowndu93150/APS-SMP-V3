@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": ["coral"],
+  "default": "false",
+  "choices": [
+    "fire",
+    "horn",
+    "bubble",
+    "thorn"
+  ],
+  "isAspect": true,
+  "aspectFormat": "coral-{{choice}}"
+}

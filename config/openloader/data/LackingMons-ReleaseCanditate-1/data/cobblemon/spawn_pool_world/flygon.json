@@ -1,0 +1,50 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "flygon-1",
+            "pokemon": "flygon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-54",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sand"
+                ]
+            }
+        },
+        {
+            "id": "flygon-1",
+            "pokemon": "flygon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-54",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:red_sand"
+                ]
+            }
+        }
+    ]
+}
+       

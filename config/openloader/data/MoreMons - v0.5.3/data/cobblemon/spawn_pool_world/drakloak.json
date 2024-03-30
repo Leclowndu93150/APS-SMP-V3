@@ -1,0 +1,39 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+          "id": "drakloak-1",
+          "pokemon": "drakloak",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "rare",
+          "level": "50-59",
+          "weight": 0.15,
+          "condition": {
+          "canSeeSky": true,
+          "biomes": [
+              "#minecraft:is_overworld"
+            ],
+            "isRaining": true
+          }
+        },
+        {
+          "id": "drakloak-2",
+          "pokemon": "drakloak",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "rare",
+          "level": "50-59",
+          "weight": 0.58,
+          "condition": {
+          "canSeeSky": true,
+          "biomes": [
+              "#cobblemon:is_swamp"
+            ],
+            "timeRange": "night"
+        }
+      }
+    ]
+}

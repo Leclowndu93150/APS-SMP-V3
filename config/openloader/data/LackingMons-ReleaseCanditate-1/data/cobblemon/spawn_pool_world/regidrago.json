@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    {
+       "id": "regidrago-1",
+       "pokemon": "regidrago",
+       "presets": [
+           "stronghold"
+       ],
+       "type": "pokemon",
+       "context": "grounded",
+       "bucket": "ultra-rare",
+       "level": "70",
+       "weight": 0.1,
+       "condition": {
+           "biomes": [
+               "#cobblemon:is_overworld"
+           ]
+       }
+    },
+    {
+    "id": "regidrago-2",
+    "pokemon": "regidrago",
+    "presets": [
+        "trail_ruins"
+    ],
+    "type": "pokemon",
+    "context": "grounded",
+    "bucket": "ultra-rare",
+    "level": "70",
+    "weight": 0.1,
+    "condition": {
+        "biomes": [
+            "#cobblemon:is_overworld"
+        ]
+       }
+     }
+    ]
+}

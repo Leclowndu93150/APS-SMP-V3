@@ -1,0 +1,43 @@
+{
+  "target": "cobblemon:goomy",
+  "evolutions": [
+    {
+      "id": "goomy_sliggoo_hisuian",
+      "variant": "item_interact",
+      "result": "sliggoo hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shelter"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ],
+      "requiredContext": "minecraft:mangrove_roots"
+    }
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "times": "night",
+      "willSleepOnBed": "true"
+    },
+    "moving": {
+      "canLook": true,
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "shoulderMountable": true
+}

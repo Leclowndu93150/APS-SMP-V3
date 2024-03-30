@@ -1,0 +1,42 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"description": [
+			{
+				"text": "v1.1",
+				"color": "green"
+			},
+			{
+				"text": " | ",
+				"color": "dark_gray"
+			},
+			{
+				"text": "MC 1.20.1",
+				"color": "yellow"
+			},
+			{
+				"text": " | ",
+				"color": "dark_gray"
+			},
+			{
+				"text": "Cobblemon v1.4+",
+				"color": "light_purple"
+			},
+			{
+				"text": " | ",
+				"color": "dark_gray"
+			},
+			{
+				"text": "By",
+				"color": "gray"
+			},
+			{
+				"text": " "
+			},
+			{
+				"text": "DanMizu",
+				"color": "aqua"
+			}
+		]
+	}
+}

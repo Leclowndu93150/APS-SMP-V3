@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    {
+       "id": "duraludon-1",
+       "pokemon": "duraludon",
+       "presets": [
+           "natural"
+       ],
+       "type": "pokemon",
+       "context": "grounded",
+       "bucket": "rare",
+       "level": "25-45",
+       "weight": 5.0,
+       "condition": {
+           "biomes": [
+               "#cobblemon:is_overworld"
+           ],
+               "minY" : 100
+       },
+       "neededNearbyBlocks": [
+        "minecraft:iron_block"
+       ],
+       "canSeeSky": "true"
+    },
+    {
+        "id": "duralodun-2",
+        "pokemon": "duraludon",
+        "presets": [
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "25-45",
+        "weight": 5.0,
+        "condition": {
+            "biomes": [
+                "#cobblemon:is_freezing"
+            ],
+               "minY" : 100
+        },
+        "canSeeSky": "true"
+     }
+    ]
+}

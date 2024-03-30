@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_banner",
+      "nbt": "{BlockEntityTag:{Patterns:[{Pattern:gru,Color:9},{Pattern:gra,Color:3},{Pattern:glb,Color:5}]}}"
+    },
+    "title": "Important Flag",
+    "description": "§eHold §6a diamond§e and §6crouch§e next to §6a flag§e to §6§nmake it big!",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gurkis:theflagisup",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:corsola",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [ "coral-fire" ],
+            "poser": "cobblemon:corsola",
+            "model": "cobblemon:corsola_fire.geo",
+            "texture": "cobblemon:textures/pokemon/corsola/corsola_fire.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "coral-fire"
+            ],
+            "texture": "cobblemon:textures/pokemon/corsola/corsola_fire_shiny.png",
+            "layers": []
+        }
+    ]
+}

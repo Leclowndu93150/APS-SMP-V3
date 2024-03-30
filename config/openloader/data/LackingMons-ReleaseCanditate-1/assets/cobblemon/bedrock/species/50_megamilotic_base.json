@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:megamilotic",
+    "order": 50,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:megamilotic",
+            "model": "cobblemon:megamilotic.geo",
+            "texture": "cobblemon:textures/pokemon/milotic/milotic_mega.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/milotic/milotic_mega_emissive.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/milotic/milotic_mega_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/milotic/milotic_mega_emissive_shiny.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}

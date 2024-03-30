@@ -1,0 +1,149 @@
+{
+  "implemented": true,
+  "name": "Archaludon",
+  "nationalPokedexNumber": 1018,
+  "primaryType": "steel",
+  "secondaryType": "dragon",
+  "abilities": [
+    "stamina",
+    "sturdy",
+    "h:stalwart"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron",
+        "quantityRange": "0-2"
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 105,
+    "defence": 130,
+    "special_attack": 125,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "catchRate": 10,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral",
+    "dragon"
+  ],
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      }
+    },
+    "resting": {
+      "canSleep": false,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "moves": [
+    "1:electroshot",
+    "1:leer",
+    "1:metalclaw",
+    "6:rocksmash",
+    "12:honeclaws",
+    "18:metalsound",
+    "24:breakingswipe",
+    "30:dragontail",
+    "36:irondefense",
+    "42:focusenergy",
+    "48:dragonclaw",
+    "54:flashcannon",
+    "60:metalburst",
+    "66:hyperbeam",
+    "egg:slash",
+    "egg:mirrorcoat",
+    "egg:nightslash",
+    "tm:takedown",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:facade",
+    "tm:snarl",
+    "tm:snarl",
+    "tm:metalclaw",
+    "tm:rocktomb",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:brickbreak",
+    "tm:foulplay",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:dragonclaw",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:swordsdance",
+    "tm:bodypress",
+    "tm:flashcannon",
+    "tm:darkpulse",
+    "tm:ironhead",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:aurasphere",
+    "tm:dragonpulse",
+    "tm:stealthrock",
+    "tm:heavyslam",
+    "tm:thunderbolt",
+    "tm:earthquake",
+    "tm:stoneedge",
+    "tm:gigaimpact",
+    "tm:outrage",
+    "tm:hyperbeam",
+    "tm:thunder",
+    "tm:solarbeam",
+    "tm:dracometeor",
+    "tm:steelbeam",
+    "tm:terablast",
+    "tm:roar",
+    "tm:smackdown",
+    "tm:gyroball",
+    "tm:doubleedge",
+    "tm:meteorbeam",
+    "tm:breakingswipe",
+    "tm:metalsound",
+    "tm:hardpress",
+    "tm:dragonclaw"
+  ],
+  "labels": [
+    "gen9"
+  ],
+  "pokedex": [
+    "cobblemon.species.archaludon.desc"
+  ],
+  "preEvolution": "duraludon",
+  "evolutions": [],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 340,
+  "aspects": [],
+  "cannotDynamax": false
+}

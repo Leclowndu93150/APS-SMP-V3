@@ -1,0 +1,56 @@
+{
+   "portraitScale":3,
+   "portraitTranslation":[
+      0.1,
+      -1.3,
+      0
+   ],
+   "profileScale":1,
+   "profileTranslation":[
+      0,
+      0.3,
+      0
+   ],
+ "faint": "bedrock(roselia, faint, true)",
+   "poses":{
+      "standing":{
+         "poseName":"standing",
+         "transformTicks":10,
+         "poseTypes":[
+            "STAND",
+            "NONE",
+            "PORTRAIT",
+            "PROFILE"
+         ],
+         "animations":[
+            "bedrock(roselia, ground_idle)"
+         ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(roselia, blink)"
+         ]
+       }
+     ]
+      },
+      "walking":{
+         "poseName":"walking",
+         "transformTicks":10,
+         "poseTypes":[
+            "WALK"
+         ],
+         "animations":[
+            "bedrock(roselia, ground_walk)"
+         ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(roselia, blink)"
+         ]
+       }
+     ]
+      }
+   }
+}

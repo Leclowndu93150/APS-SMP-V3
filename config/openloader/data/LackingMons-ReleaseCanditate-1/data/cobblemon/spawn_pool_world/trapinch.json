@@ -1,0 +1,50 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "trapinch-1",
+            "pokemon": "trapinch",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-30",
+            "weight": 9.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sand"
+                ]
+            }
+        },
+        {
+            "id": "trapinch-2",
+            "pokemon": "trapinch",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-30",
+            "weight": 9.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:red_sand"
+                ]
+            }
+        }
+    ]
+}
+       

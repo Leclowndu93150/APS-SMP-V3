@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:gardevoir",
+  "evolutions": [
+  {
+    "id": "gardevoir_megagardevoir",
+    "variant": "item_interact",
+    "result": "megagardevoir",
+    "consumeHeldItem": true,
+    "requirements": [],
+    "requiredContext": "lackingmegas:key_stone"
+  },
+  {
+    "id": "gardevoir_megagardevoir1",
+    "variant": "item_interact",
+    "result": "megagardevoir",
+    "consumeHeldItem": false,
+    "requirements": [],
+    "requiredContext": "lackingmegas:mega_ring"
+  }
+]
+}

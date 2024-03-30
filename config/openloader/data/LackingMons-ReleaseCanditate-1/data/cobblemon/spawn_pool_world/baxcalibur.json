@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    {
+       "id": "baxcalibur-1",
+       "pokemon": "baxcalibur",
+       "presets": [
+           "mountain",
+           "cold"
+       ],
+       "type": "pokemon",
+       "context": "grounded",
+       "bucket": "rare",
+       "level": "54-60",
+       "weight": 0.1,
+       "condition": {
+           "biomes": [
+               "#cobblemon:is_overworld"
+           ],
+               "minY" : 50
+       }
+    }
+  ]
+}

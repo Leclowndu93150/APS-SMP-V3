@@ -1,0 +1,73 @@
+{
+    "head": "head",
+    "cry": "bedrock(flygon, cry)",
+    "portraitScale": 2,
+    "portraitTranslation": [
+        -0.05,
+        1.8,
+        0
+    ],
+    "profileScale": 0.5,
+    "profileTranslation": [
+        -0.1,
+        1.1,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(flygon, ground_idle)"
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(flygon, ground_walk)"
+            ]
+        },
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "isBattle": true,
+            "poseTypes": [
+                "STAND"
+            ],
+            "animations": [
+                "look",
+                "bedrock(flygon, battle_idle)"
+            ]
+        },
+   "hovering": {
+     "poseName": "hovering",
+     "transformTicks": 10,
+     "poseTypes": [
+       "HOVER"
+     ],
+     "animations": [
+       "bedrock(flygon, air_idle)"
+     ]
+   },
+   "flying": {
+     "poseName": "flying",
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLY"
+     ],
+     "animations": [
+       "bedrock(flygon, air_fly)"
+     ]
+   }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "turtonator-1",
+            "pokemon": "turtonator",
+            "presets": [
+                "volcanic"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-50",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        },
+        {
+            "id": "turtonator-2",
+            "pokemon": "turtonator",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-50",
+            "weight": 10,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_nether"
+                ]
+            }
+        }
+    ]
+}

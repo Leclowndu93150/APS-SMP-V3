@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:salamence",
+  "baseScale": 2,
+  "hitbox": {
+    "width": 1.5,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.6
+      }
+    }
+  }
+}

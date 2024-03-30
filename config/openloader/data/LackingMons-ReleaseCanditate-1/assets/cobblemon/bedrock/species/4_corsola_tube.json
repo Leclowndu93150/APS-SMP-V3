@@ -1,0 +1,21 @@
+{
+    "species": "cobblemon:corsola",
+    "order": 4,
+    "variations": [
+        {
+            "aspects": [ "coral-tube" ],
+            "poser": "cobblemon:corsola",
+            "model": "cobblemon:corsola_tube.geo",
+            "texture": "cobblemon:textures/pokemon/corsola/corsola_tube.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "coral-tube"
+            ],
+            "texture": "cobblemon:textures/pokemon/corsola/corsola_tube_shiny.png",
+            "layers": []
+        }
+    ]
+}

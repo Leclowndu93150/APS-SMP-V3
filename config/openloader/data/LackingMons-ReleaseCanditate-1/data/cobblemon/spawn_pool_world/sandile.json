@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sandile-1",
+            "pokemon": "sandile",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "12-24",
+            "weight": 8.0,
+            "weightMultipliers": [
+{
+                "multiplier": 2.0,
+                "condition": {
+                    "timeRange": "night"
+                }
+            }
+],
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:red_sand"
+                ]
+            }
+        }
+    ]
+}
+       

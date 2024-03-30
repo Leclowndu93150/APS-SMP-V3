@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    {
+       "id": "darmanitan-galarian-1",
+       "pokemon": "darmanitan-galarian",
+       "presets": [
+           "natural"
+       ],
+       "type": "pokemon",
+       "context": "grounded",
+       "bucket": "rare",
+       "level": "24-40",
+       "weight": 0.5,
+       "weightMultipliers": [
+        {
+                        "multiplier": 1.5,
+                        "condition": {
+                            "isRaining":"true"
+                        }
+        }
+       ],
+       "condition": {
+           "biomes": [
+               "#cobblemon:is_snowy_forest"
+           ]
+       }
+    }
+    ]
+}

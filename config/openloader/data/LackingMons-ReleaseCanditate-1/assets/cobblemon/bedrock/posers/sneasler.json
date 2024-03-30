@@ -1,0 +1,57 @@
+{
+    "head": "head",
+    "cry": "bedrock(sneasler, cry)",
+    "portraitScale": 1.5,
+    "portraitTranslation": [
+        -0.1,
+        2,
+        0
+    ],
+    "profileScale": 0.5,
+    "profileTranslation": [
+        0,
+        1.1,
+        0
+    ],
+    "poses": {
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "animations": [
+                "bedrock(sneasler, ground_idle)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(sneasler, blink)"
+                    ]
+                }
+            ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [
+                "WALK"
+            ],
+            "animations": [
+                "bedrock(sneasler, ground_walk)"
+            ],
+            "quirks": [
+                {
+                    "name": "blink",
+                    "animations": [
+                        "bedrock(sneasler, blink)"
+                    ]
+                }
+            ]
+        }
+    }
+}

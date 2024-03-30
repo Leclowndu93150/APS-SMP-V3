@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "pokeloot:hidden_grotto",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 481193084,
+    "spacing": 32,
+    "separation": 2,
+    "type": "minecraft:random_spread"
+  }
+}
