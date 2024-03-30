@@ -1,8 +1,3 @@
 [{
-        "mod": "cobblemon",
-        "result": "default"
-    },
-    {
-        "result": "deny"
-    }
-]
+    "result": "deny"
+}]
