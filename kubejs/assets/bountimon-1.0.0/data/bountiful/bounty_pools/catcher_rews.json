@@ -1,0 +1,294 @@
+{
+  "content": {
+    "catcher_rew_poke_ball": {
+      "type": "item",
+      "content": "cobblemon:poke_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_slate_ball": {
+      "type": "item",
+      "content": "cobblemon:slate_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_azure_ball": {
+      "type": "item",
+      "content": "cobblemon:azure_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_verdant_ball": {
+      "type": "item",
+      "content": "cobblemon:verdant_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_roseate_ball": {
+      "type": "item",
+      "content": "cobblemon:roseate_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_citrine_ball": {
+      "type": "item",
+      "content": "cobblemon:citrine_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_great_ball": {
+      "type": "item",
+      "content": "cobblemon:great_ball",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1500
+    },
+    "catcher_rew_ultra_ball": {
+      "type": "item",
+      "content": "cobblemon:ultra_ball",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2000
+    },
+    "catcher_rew_safari_ball": {
+      "type": "item",
+      "content": "cobblemon:safari_ball",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1500
+    },
+    "catcher_rew_fast_ball": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "cobblemon:fast_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "catcher_rew_level_ball": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "cobblemon:level_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "catcher_rew_lure_ball": {
+      "type": "item",
+      "content": "cobblemon:lure_ball",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2000
+    },
+    "catcher_rew_heavy_ball": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "cobblemon:heavy_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "catcher_rew_love_ball": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "cobblemon:love_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8000
+    },
+    "catcher_rew_friend_ball": {
+      "type": "item",
+      "content": "cobblemon:friend_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_moon_ball": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "cobblemon:moon_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "catcher_rew_sport_ball": {
+      "type": "item",
+      "content": "cobblemon:sport_ball",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1500
+    },
+    "catcher_rew_net_ball": {
+      "type": "item",
+      "content": "cobblemon:net_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000
+    },
+    "catcher_rew_dive_ball": {
+      "type": "item",
+      "content": "cobblemon:dive_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3500
+    },
+    "catcher_rew_nest_ball": {
+      "type": "item",
+      "rarity": "EPIC",
+      "content": "cobblemon:nest_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "catcher_rew_repeat_ball": {
+      "type": "item",
+      "content": "cobblemon:repeat_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_timer_ball": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "cobblemon:timer_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "catcher_rew_luxury_ball": {
+      "type": "item",
+      "rarity": "RARE",
+      "content": "cobblemon:luxury_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_premier_ball": {
+      "type": "item",
+      "content": "cobblemon:premier_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_dusk_ball": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "cobblemon:dusk_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000
+    },
+    "catcher_rew_heal_ball": {
+      "type": "item",
+      "content": "cobblemon:heal_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_quick_ball": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "cobblemon:quick_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000
+    },
+    "catcher_rew_cherish_ball": {
+      "type": "item",
+      "content": "cobblemon:cherish_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "catcher_rew_park_ball": {
+      "type": "item",
+      "content": "cobblemon:park_ball",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2500
+    },
+    "catcher_rew_dream_ball": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "cobblemon:dream_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000
+    },
+    "catcher_rew_beast_ball": {
+      "type": "item",
+      "content": "cobblemon:beast_ball",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000
+    }
+  }
+}
