@@ -1,0 +1,105 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shellos-1",
+            "pokemon": "shellos",
+            "presets": [
+                "beach"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-31",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "shellos-2",
+            "pokemon": "shellos",
+            "presets": [
+                "warms"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "7-41",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "shellos-3",
+            "pokemon": "shellos",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-31",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "shellos-east-1",
+            "pokemon": "shellos east",
+            "presets": [
+                "colds"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "7-31",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "shellos-east-2",
+            "pokemon": "shellos east",
+            "presets": [
+                "beach"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-31",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "shellos-east-3",
+            "pokemon": "shellos east",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-31",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills"
+                ],
+                "isRaining": true
+            }
+        }
+    ]
+}

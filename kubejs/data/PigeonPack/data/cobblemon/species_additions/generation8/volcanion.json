@@ -1,0 +1,9 @@
+{
+ "target": "cobblemon:volcanion",
+  "baseScale": 1,
+  "hitbox": {
+    "width": 3.8,
+    "height": 4,
+    "fixed": false
+  }
+}

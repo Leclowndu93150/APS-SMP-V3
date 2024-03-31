@@ -1,0 +1,55 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fomantis-1",
+            "pokemon": "fomantis",
+            "presets": ["natural", "foliage"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-19",
+            "weight": 7.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": ["#cobblemon:is_forest"]
+            },
+            "anticondition": {
+                "biomes": ["#cobblemon:is_spooky","#cobblemon:is_freezing"]
+            }
+        },
+        {
+            "id": "fomantis-2",
+            "pokemon": "fomantis",
+            "presets": ["natural", "foliage"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "4-26",
+            "weight": 7.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": ["#cobblemon:is_jungle"]
+            }
+        },
+		{
+            "id": "fomantis-3",
+            "pokemon": "fomantis",
+            "presets": ["natural", "foliage"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-12",
+            "weight": 7.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": ["#cobblemon:is_plains"]
+            },
+            "anticondition": {
+                "biomes": ["#cobblemon:is_spooky","#cobblemon:is_freezing"]
+            }
+        }
+    ]
+}

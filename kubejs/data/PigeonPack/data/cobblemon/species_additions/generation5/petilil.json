@@ -1,0 +1,33 @@
+{
+ "target": "cobblemon:petilil",
+ "evolutions": [
+    {
+      "id": "petilil_lilligant",
+      "variant": "item_interact",
+      "result": "lilligant",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "petaldance"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:sun_stone"
+    },
+  {
+      "id": "petilil_lilligant_hisuian",
+      "variant": "item_interact",
+      "result": "lilligant hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "victorydance"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone"
+   }
+   ],
+	"baseScale": 0.5,
+	"hitbox": {
+		"width": 1,
+		"height": 1,
+		"fixed": false
+   }
+}
