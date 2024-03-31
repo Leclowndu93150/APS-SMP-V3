@@ -1,3 +1,12 @@
 {
-
+  "cobblemon.species.megagallade.name": "Gallade",
+  "cobblemon.species.megagardevoir.name": "Gardevoir",
+  "cobblemon.species.megagengar.name": "Gengar",
+  "cobblemon.species.megalucario.name": "Lucario",
+  "cobblemon.species.megametagross.name": "Metagross",
+  "cobblemon.species.megamawile.name": "Mawile",
+  "cobblemon.species.megascizor.name": "Scizor",
+  "cobblemon.species.megamilotic.name": "Milotic",
+  "cobblemon.species.eternamax.name": "Eternatus",
+  "cobblemon.species.archaludon.name": "Archaludon"
 }
