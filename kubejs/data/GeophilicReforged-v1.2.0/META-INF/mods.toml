@@ -1,0 +1,8 @@
+
+modLoader = 'lowcodefml'
+loaderVersion = '[41,99)'
+license = 'ARR'
+showAsResourcePack = false
+mods = [
+	{ modId = 'geophilic_reforged', version = '1.2.0', displayName = 'Geophilic Reforged', description = 'A dynamic overhaul of Overworld biomes', logoFile = 'pack.png', authors = 'bebebea_loste', displayURL = 'https://modrinth.com/mod/geophilic-reforged' },
+]

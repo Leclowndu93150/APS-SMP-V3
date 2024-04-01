@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"description": "\u00A76\u00A7lGeophilic Reforged\u00A7r\nRequires \u00A7cFML",
+		"version": "1.2.0",
+		"pack_format": 10,
+		"supported_formats": [
+			10,
+			18
+		]
+	}
+}

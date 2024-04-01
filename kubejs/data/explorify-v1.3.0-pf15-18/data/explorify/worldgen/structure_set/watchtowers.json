@@ -1,0 +1,24 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 97006481,
+    "spacing": 32,
+    "separation": 12,
+    "frequency": 0.75
+  },
+  "structures": [
+    {
+      "structure": "explorify:watchtower_plains",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:watchtower_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "explorify:watchtower_savanna",
+      "weight": 1
+    }
+  ]
+}
