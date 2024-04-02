@@ -114,9 +114,6 @@
 				red_spruce = true
 				white_flower_spruce = true
 
-			[general.types.leaves_type.beachparty]
-				palm = true
-
 			[general.types.leaves_type.quark]
 				ancient = true
 				blue_blossom = true
@@ -147,9 +144,6 @@
 				magic = true
 				umbran = true
 				hellbark = true
-
-			[general.types.wood_type.beachparty]
-				palm = true
 
 		[general.types.cake]
 
