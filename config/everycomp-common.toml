@@ -383,9 +383,6 @@
 			[general.entries.wood_type.farmersdelight]
 				cabinet = true
 
-			[general.entries.wood_type.twigs]
-				table = true
-
 			[general.entries.wood_type.create]
 				window_pane = true
 				window = true

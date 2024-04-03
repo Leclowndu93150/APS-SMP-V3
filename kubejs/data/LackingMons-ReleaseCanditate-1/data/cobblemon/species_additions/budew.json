@@ -1,9 +1,0 @@
-{
-    "target": "cobblemon:budew",
-    "baseScale": 1,
-    "hitbox": {
-        "width": 0.5,
-        "height": 0.6,
-        "fixed": false
-    }
-}

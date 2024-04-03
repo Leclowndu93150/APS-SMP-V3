@@ -1,1 +1,0 @@
-give @p armor_stand{display:{Name:'{"text":"Pokeball Spawner","color":"red","bold":false,"italic":false}'},EntityTag:{CustomNameVisible:0b,Silent:1b,Tags:["pokeball_loot_spawner"]}} 1

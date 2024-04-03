@@ -1,7 +1,0 @@
-{
-  "pack": {
-    "description": "A collection of new dungeons and structures",
-    "pack_format": 15,
-    "supported_formats": [15, 18]
-  }
-}

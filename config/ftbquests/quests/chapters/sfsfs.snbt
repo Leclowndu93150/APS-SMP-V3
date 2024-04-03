@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sfsfs"
+	group: ""
+	id: "6EA0A813DA7749C6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "35D7930935539F92"
+			tasks: [{
+				action: "catch"
+				entity: "cobblemon_quests:choice_any"
+				form: "choice_any"
+				gender: "choice_any"
+				id: "2196FE1D8A8495FF"
+				pokemon_type: "choice_any"
+				region: "choice_any"
+				shiny: false
+				type: "cobblemon_tasks:cobblemon_task"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "15772A4C97A66206"
+			tasks: [{
+				action: "catch"
+				entity: "cobblemon:milotic"
+				form: "choice_any"
+				gender: "choice_any"
+				id: "57D290983C8DD8A1"
+				pokemon_type: "choice_any"
+				region: "choice_any"
+				shiny: false
+				type: "cobblemon_tasks:cobblemon_task"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+	]
+	title: "sfsfs"
+}

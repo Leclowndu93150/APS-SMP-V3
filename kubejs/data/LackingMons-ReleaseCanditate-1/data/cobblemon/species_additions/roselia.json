@@ -1,9 +1,0 @@
-{
-    "target": "cobblemon:roselia",
-    "baseScale": 1,
-    "hitbox": {
-        "width": 0.7,
-        "height": 0.8,
-        "fixed": false
-    }
-}

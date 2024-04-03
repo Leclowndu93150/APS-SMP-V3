@@ -1,6 +1,0 @@
-{
-  "keys": ["eternamax-wild"],
-  "type": "flag",
-  "isAspect": true,
-  "default": false
-}
